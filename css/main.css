@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+html,
+body,
+#cover{
+    height: 100%;
+}
+.navbar-brand{
+    color: gold !important;
+}
+#cover{
+    background:url("https://cdn.pixabay.com/photo/2014/05/03/00/46/gadgets-336635_960_720.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.fixed-top{
+    max-width: 1140px;
+    margin: 20px auto;
+    transition: 0.2 all linear;
+}
+h1{
+    margin-top: 20%;
+    font-family: 'Lora', serif;
+    color: #fff;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fed136;
+    border-style: none;
+    font-size: 18px;
+    padding: 20px 40px;
+    font-weight: 700;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #fed136;
+}
+a.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #fff !important;
+    transition: color .5s ease;
+    -webkit-transition:  color .5s ease;
+    -moz-transition:  color .5s ease;
+    -o-transition:  color .5s ease;
+
+}
+a.nav-link:hover{
+    color: #fed136 !important;
+}
+
+/* Services */
+
+#services{
+    padding: 120px 0px;
+}
+.services-top h3, 
+.portfolio-top h3, 
+.aboutUs-top h3, 
+.team-top h3,
+.contact-top h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.services-top p,
+.portfolio-top p, 
+.aboutUs-top p, 
+.team-top p,
+.contact-top p{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 70px;
+}
+.item-circle{
+    border: 3px solid #fed136;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: .4s;
+    cursor: pointer;
+}
+.services-content i{
+    color: #fed136;
+    line-height: 100px;
+    transition: .4s;
+}
+.item-circle:hover{
+    background: #fed136;
+    border: 3px solid #262626;
+}
+.item-circle:hover > i{
+    color: #262626;
+}
+.services-content h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    margin-top: 24px;
+}
+.services-content p,.aboutUs-content p{
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+    font-size: 14px;
+}
+#portfolio{
+    background: #f7f7f7;
+    padding: 120px 0;
+}
+.card{
+    border-style: none;
+}
+.card img{
+    height: 300px;
+    background-size: cover;
+}
+.portfolio-content .card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700; 
+}
+.portfolio-content .card-subtitle{
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-style: italic
+}
+.aboutUs-content img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border: 7px solid #f1f1f1;
+}
+#aboutUs{
+    padding: 120px;
+}
+.aboutUs-content .row{
+    margin-bottom: 90px;
+}
+.aboutUs-content h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+}
+.aboutUs-content{
+    position: relative;
+    text-align: center;
+}
+.aboutUs-content:before{
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    width: 4px;
+    background: #f1f1f1;
+    margin-left: -2px;
+}
+.about-circle:before{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: #fed136;
+    border-radius: 50%;
+    border: 7px solid #f1f1f1;
+    left: 50%;
+    margin-left: -100px;
+}
+.yellow-text{
+    position: relative;
+    top: 50px;
+    left: 5px;
+    font-family: 'Montserrat' !important ;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+
+}
+#team{
+    padding-top: 120px;
+    padding-bottom: 70px;
+    background: #f9f9f9;
+}
+.team-circle{
+    width: 220px;
+    height: 220px;
+    background: #262626;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 6px solid #fff;
+}
+.team-content h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.team-content h5{
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+    font-size: 14px;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.social-icon{
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.social-icon .fab{
+    border: 2px solid #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 26px;
+}
+.team-content p{
+    width: 85%;
+    margin: 50px auto;
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+    font-size: 16px;
+}
+#partner{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#partner img{
+    height: 100px;
+    background-size: 100px auto;
+    margin: 0 auto;
+}
+#contact{
+    background: url("https://www.uniguard.com.au/wp-content/uploads/2017/05/world-map-dark.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 120px 0px;
+}
+.contact-top h3{
+    color: #fff;
+}
+#name,
+#email,
+#subject{
+    width: 90%;
+    height: 50px;
+    text-indent: 15px;
+    border-style: none;
+    border-radius: 3px;
+    margin-left: 5%;
+}
+textarea{
+    width: 90%;
+    height: 200px;
+    border-radius: 3px;
+    padding-top: 15px;
+    text-indent: 20px;
+    margin-right: 5%;
+}
+.golden-form-element{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+#footer{
+    padding: 20px 0px;
+}
+#footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #555;
+    line-height: 40px;
+}
+.company-social-icons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.company-social-icon{
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #fff;
+}
+.company-social-icon i{
+    background: #262626;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.change-fixed-top{
+    margin-top: 0px;
+    background: #000;
+    max-width: 2000px;
+}
+
+/* Bootstrap media 1 */
+@media (max-width: 991px){
+    #footer p{
+        font-size: 11px;
+        line-height: 30px;
+    }
+    .company-social-icon{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .company-social-icon i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    h1{
+        margin-top: 250px;
+        font-size: 36x;
+    }
+    h2{
+        font-size: 55px;
+    }
+}
+
+/* Bootstrap media 2 */
+@media (max-width: 767px){
+    .navbar-collapse{
+        background: rgba(0,0,0,.35)
+    }
+    .navbar-light .navbar-toggler{
+        border: 1px solid #fed136
+    }
+    h1{
+        margin-top: 250px;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 50px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .navbar-toggler{
+        background: #fed136 !important;
+        outline: none !important;
+        border: none !important;
+    }
+    textarea{
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    #footer p{
+        text-align: center;
+    }
+}
+
+/* Bootstrap media 3 */
+@media (max-width: 575px){
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .aboutUs-content img{
+        display:none;
+    }
+    .about-circle{
+        display:none;
+    }
+    #aboutUs{
+        padding: 40px;
+    }
+    .navbar-toggler{
+        background: #fed136 !important;
+        outline: none !important;
+        border: none !important;
+    }
+    textarea{
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    #footer p{
+        text-align: center;
+    }
+}
